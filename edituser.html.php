@@ -169,8 +169,7 @@ $col = mysqli_fetch_assoc(mysqli_query($link, "SELECT color FROM users WHERE use
       <label for="color">Color:</label>
       <?php if($col['color'][0] == '#') { ?>
       <input type="color" name="color" class="form-control" value="<?php echo $col['color']; ?>">
-      <?php } else{ ?>
-      <input type="color" name="color" class="form-control" value="#<?php echo $col['color']; } ?>">
+      <?php } ?>
       <span class="help-block purple"><?php echo $ce;?></span>
     </div>
     </div> 
