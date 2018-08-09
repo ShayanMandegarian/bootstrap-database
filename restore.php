@@ -1,6 +1,6 @@
 <?php
 // this file is accessed when clicking the 'restore' action on a deleted user.
-$link = mysqli_connect('localhost', 'root', 'Purpl3ti3_');
+$link = mysqli_connect('localhost', 'root', 'password');
 if ($link == FALSE)
 {
   $error = 'Unable to connect to localhost';
